@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./src/assets/css/style.css" />
+  </head>
+  <body>
+    <h1>Skate Park</h1>
+    <div class="py-4">
+      <h2>Lista de participantes</h2>
+      <hr />
+      <div id="mensaje"></div>
+      <table id="tabla-skaters" class="table table-dark">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Foto</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Años de experiencia</th>
+            <th scope="col">Especialidad</th>
+            <th scope="col">Estado</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+      <a href="/login" class="btn btn-dark" role="button" id="login">Iniciar Sesión</a>
+      <a href="/registro" class="btn btn-dark" role="button" id="registrar">Registrarme</a>
+      <a href="/adminlogin" class="btn btn-dark" role="button" id="admin">Iniciar Sesion del Administrador</a></p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script type="module" src="./src/assets/js/index.js"></script>
+  </body>
+</html>
